@@ -1,6 +1,7 @@
 package javaFun;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class BasicJava {
 
@@ -142,5 +143,22 @@ public class BasicJava {
 		resultado.add(max1);
 		resultado.add(prom1);
 		System.out.println(resultado);
+		
+		//Cambiando los valores del arreglo
+		System.out.println("\n" + "Cambiando los valores del arreglo");
+		
+		int [] x6 = {1,5,10,7,-2};
+		int narray;
+		System.out.println("antes: " + Arrays.toString(x6));
+
+		for (int i = 0; i < x6.length; i++) {
+			narray = i+1;
+			if(narray >= x6.length) {
+				x6[i] = x6[i] +2;	
+			} else {
+				x6[i] = x6[narray];
+			}
+		}
+		System.out.println("despues: " + Arrays.toString(x6));
 	}
 }

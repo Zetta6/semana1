@@ -34,7 +34,7 @@ public class StringManipulator {
 	public static void main(String[] args)  {
 		
 		//Concatenar Hola Mundo
-		System.out.println("\n");
+		System.out.println("\n Actividad 1");
 		
 		StringManipulator manipulator = new StringManipulator();
 
@@ -44,7 +44,7 @@ public class StringManipulator {
 		
 		
 		//Obtener el indice del caracter pedido
-		System.out.println("\n");
+		System.out.println("\nActividad 2");
 		
 		StringManipulator manipulator1 = new StringManipulator();
 
@@ -56,15 +56,15 @@ public class StringManipulator {
 
 		int c = manipulator1.getIndexOrNull("Saludar", letter);
 
-		System.out.println(a); // 0
+		System.out.println(a);
 
-		System.out.println(b); // 7
+		System.out.println(b);
 
-		System.out.println(c); // -1
+		System.out.println(c);
 
 		
 		//Obtener el indice donde comienza la subcadena
-		System.out.println("\n");
+		System.out.println("\nActividad 3");
 		
 		StringManipulator manipulator2 = new StringManipulator();
 
@@ -84,7 +84,7 @@ public class StringManipulator {
 		
 		
 		//Obetener una subcadena utilizando un indice de inicio y un indice de finalización
-		System.out.println("\n");
+		System.out.println("\nActividad 4");
 		
 		StringManipulator manipulator3 = new StringManipulator();
 

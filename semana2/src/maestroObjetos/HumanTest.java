@@ -35,6 +35,7 @@ public class HumanTest {
 		
 		Kinawa.deathBlow(Blaze);
 
+		Kinawa.howMany();
 	}
 
 }

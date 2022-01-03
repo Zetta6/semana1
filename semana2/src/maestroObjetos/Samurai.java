@@ -2,10 +2,16 @@ package maestroObjetos;
 
 public class Samurai extends Human{
 
+	static int tamaño = 0;
+
 	{
 	this.health = 200;
 	}
-
+	
+	 public Samurai() {
+	      tamaño ++;
+	 }
+	
 	public void deathBlow (Human victima) {
 		int vidaVic = victima.health;
 		victima.health = victima.health - victima.health;
@@ -25,4 +31,7 @@ public class Samurai extends Human{
 		
 	}
 	
+	public void howMany () {
+		System.out.println("Actualmente existen " + tamaño + " samurai \n");
+	}
 }

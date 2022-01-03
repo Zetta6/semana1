@@ -4,7 +4,6 @@ public class SinglyLinkedList {
 
 	public Node head;
 	public int tamaño = 0;
-    public SinglyLinkedList() {}
 
     //Los metodos de la SLL van aqui. Al principio, les mostraremos cómo agregar nodos a la lista.
 
